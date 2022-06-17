@@ -11,3 +11,9 @@ import "./css/index.css"
 
 //6.引入less文件
 import "./less/index.less"
+
+//7.手动引入图片文件
+import imgObj from './assets/xishi(2).jpg'
+let theImg = document.createElement('img')
+theImg.src = imgObj
+document.body.appendChild(theImg)
