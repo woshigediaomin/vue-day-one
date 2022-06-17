@@ -27,3 +27,7 @@ document.body.appendChild(theI)
 theJ.className = "iconfont icon-weixin"
 document.body.appendChild(theJ)
 
+//9.书写高版本的js语法
+const fn = () => {console.log("我是一个箭头函数")}
+console.log(fn);
+

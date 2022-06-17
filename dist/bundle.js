@@ -9,6 +9,17 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/main.js":
+/*!*********************!*\
+  !*** ./src/main.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _less_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./less/index.less */ \"./src/less/index.less\");\n/* harmony import */ var _assets_xishi_2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/xishi(2).jpg */ \"./src/assets/xishi(2).jpg\");\n/* harmony import */ var _assets_fonts_iconfont_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/fonts/iconfont.css */ \"./src/assets/fonts/iconfont.css\");\n//1.yarn add jquery\n//2.public/index.html - 10个li\n//3.入口处引入jquery\n //4.编写隔行变色的代码\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#myUL>li:odd').css('color', 'red');\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#myUL>li:even').css('color', 'green'); //5.引入css文件\n\n //6.引入less文件\n\n //7.手动引入图片文件\n\n\nvar theImg = document.createElement('img');\ntheImg.src = _assets_xishi_2_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\ndocument.body.appendChild(theImg); //8.引入字体图标样式文件\n\n\nvar theI = document.createElement('i');\nvar theJ = document.createElement('i');\ntheI.className = \"iconfont icon-qq\";\ndocument.body.appendChild(theI);\ntheJ.className = \"iconfont icon-weixin\";\ndocument.body.appendChild(theJ); //9.书写高版本的js语法\n\nvar fn = function fn() {\n  console.log(\"我是一个箭头函数\");\n};\n\nconsole.log(fn);\n\n//# sourceURL=webpack://base/./src/main.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/index.less":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/index.less ***!
@@ -192,17 +203,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"a5018044183bd24b3387a28c9f1e0c2f.jpg\");\n\n//# sourceURL=webpack://base/./src/assets/xishi(2).jpg?");
-
-/***/ }),
-
-/***/ "./src/main.js":
-/*!*********************!*\
-  !*** ./src/main.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _less_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./less/index.less */ \"./src/less/index.less\");\n/* harmony import */ var _assets_xishi_2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/xishi(2).jpg */ \"./src/assets/xishi(2).jpg\");\n/* harmony import */ var _assets_fonts_iconfont_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/fonts/iconfont.css */ \"./src/assets/fonts/iconfont.css\");\n//1.yarn add jquery\r\n//2.public/index.html - 10个li\r\n//3.入口处引入jquery\r\n\r\n//4.编写隔行变色的代码\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#myUL>li:odd').css('color','red')\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#myUL>li:even').css('color', 'green')\r\n\r\n//5.引入css文件\r\n;\r\n\r\n//6.引入less文件\r\n\r\n\r\n//7.手动引入图片文件\r\n\r\nlet theImg = document.createElement('img')\r\ntheImg.src = _assets_xishi_2_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\r\ndocument.body.appendChild(theImg)\r\n\r\n//8.引入字体图标样式文件\r\n;\r\nlet theI = document.createElement('i')\r\ntheI.className = \"iconfont icon-qq\"\r\ndocument.body.appendChild(theI)\r\n\r\n\n\n//# sourceURL=webpack://base/./src/main.js?");
 
 /***/ }),
 
