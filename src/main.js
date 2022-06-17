@@ -1,6 +1,4 @@
-//webpack 打包的入口
-import { addFn } from "./add/add";
-import { getArrSum } from "./tool/tool"
+import $ from 'jquery'
 
-console.log(addFn(5, 3));
-console.log(getArrSum([5,6,7,8]));
+$('#myUL>li:odd').css('color','red')
+$('#myUL>li:even').css('color','green')
