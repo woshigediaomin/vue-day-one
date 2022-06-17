@@ -8,3 +8,6 @@ $('#myUL>li:even').css('color', 'green')
 
 //5.引入css文件
 import "./css/index.css"
+
+//6.引入less文件
+import "./less/index.less"
