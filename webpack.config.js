@@ -15,7 +15,7 @@ module.exports = {
         //yarn serve 自动打开浏览器
         open: true,
         //0-65535
-        port: 52525
+        port: 30000
     },
     module: {
         rules: [
