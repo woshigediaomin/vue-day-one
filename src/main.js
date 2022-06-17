@@ -17,3 +17,13 @@ import imgObj from './assets/xishi(2).jpg'
 let theImg = document.createElement('img')
 theImg.src = imgObj
 document.body.appendChild(theImg)
+
+//8.引入字体图标样式文件
+import "./assets/fonts/iconfont.css"
+let theI = document.createElement('i')
+let theJ = document.createElement('i')
+theI.className = "iconfont icon-qq"
+document.body.appendChild(theI)
+theJ.className = "iconfont icon-weixin"
+document.body.appendChild(theJ)
+

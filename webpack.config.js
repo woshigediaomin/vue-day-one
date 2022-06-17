@@ -38,7 +38,15 @@ module.exports = {
                         },
                     },
                 ],
-            }
+            },
+            {
+                test: /\.(eot|svf|ttf|woff|woff2)$/i,
+                type:"asset/resource",
+                //[hash]随意生成字符 [ext]
+                generator: {
+                    filename:'fonts/[hash:6]/[ext]'
+                }
+            },
         ]
     }
 }
